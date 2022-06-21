@@ -6,7 +6,7 @@
 }
 
 
-header{
+.tnav{
     background-color: #f3f3f3;
     height: 30px;
     display: flex;
@@ -15,6 +15,48 @@ header{
     font-weight: bold;
 }
 
+/* HEADER STYLING */
+
+.header-fixed {
+	background-color:#fff;
+	/* box-shadow:0 1px 1px #ccc; */
+	padding: 20px 40px;
+	height: 120px;
+
+	box-sizing: border-box;
+	-webkit-transition:top 0.3s;
+	transition:top 0.3s;
+}
+
+.header-fixed .header-limiter {
+	max-width: 1200px;
+	text-align: center;
+	
+}
+
+.header-fixed-placeholder{
+	height: 80px;
+	display: none;
+}
+.list{
+    padding-top: 20px;
+    position: relative;
+    left: 200px;
+}
+
+/* Logo */
+.header-fixed .header-limiter img{
+	float: left;
+	padding-right: 10px;
+}
+
+.header-fixed .header-limiter h1,h6 {
+	float: left;
+	margin-top: 10px;
+	color: #0338AD	;
+}
+
+/* bottom navbar */
 .tophead-left a{
     padding: 0 75px;
     line-height: 30px;
@@ -52,7 +94,7 @@ header{
 }
 
 .navbar a{
-    color: white;
+    color: #fff;
     font-size: 18px;
     padding-right: 10px;
     text-decoration: none;
@@ -63,6 +105,51 @@ header{
     color: white;
 
 }
+
+/* section news feed */
+
+/* Create two columns/boxes that floats next to each other */
+.content{
+	padding-left:40px;
+	margin-top: 20px;
+} 
+.sec1 {
+	float: left;
+	width: 60%;
+	height: 300px; /* only for demonstration, should be removed */
+	background: #ccc;
+	padding: 20px;
+	margin-right: 20px;
+    margin-bottom: 20px;
+    border-top: 0.5rem rgb(101, 101, 242) solid;
+	
+  }
+  article {
+	float: left;
+	padding: 20px;
+	/* padding-right: 30px; */
+	width: 36%;
+	background-color: #dfdfdf;
+    border-top: 0.5rem rgb(101, 101, 242) solid;
+	height: 300px; /* only for demonstration, should be removed */
+  }
+  
+  /* Clear floats after the columns */
+  section::after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Style the footer */
+  footer {
+	background-color: #111;
+	padding: 10px;
+	text-align: center;
+	color: #FFF;
+  }
+  
+
 
 
 

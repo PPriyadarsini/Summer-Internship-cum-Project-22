@@ -11,19 +11,40 @@
     <title>Prabhasi Odisha</title>
 </head>
 <body>
-    <header>
+
+    <div class="tnav">
         <div class="tophead-left">
             <a href="#" name="sitemap">sitemap</a>
         </div>
         <div class="tophead-right">
             <ul class="head-links">
                 <li><a href="#skip">Skip to main content</a></li>
-                <li><a href="#icon"><i class="fa-brands fa-accessible-icon"></i></a></li>
+                <li>
+                  <button onclick="changeFontSize('increase')">A+</button>
+                  <button onclick="changeFontSize('reset')">A</button>
+                  <button onclick="changeFontSize('decrease')">A-</button>
+                </li>
+                <!-- <li><a href="#icon"><i class="fa-brands fa-accessible-icon"></i></a></li> -->
                 <li><a href="#english">English</a></li>
             </ul>
         </div>
-    </header>
+    </div>
+    <header>
+      <header class="header-fixed" >
 
+        <div class="header-limiter" >
+          
+          
+          <h1><img src="emblem.png" height="80px" width="50px">PRABHASI ORISSA</h1>
+      
+          <nav class="list" id="text">
+            <a href="#">login</a>
+            <a href="#">register</a>
+            <a href="#">search button</a>
+          </nav>
+      
+        </div>
+    </header>
     <nav>
         <div class="navbar">
             <ul>
@@ -68,13 +89,32 @@
               </div>
     
         </section>
-
-        <section>
-            <div class="fund">
-
             </div>
         </section>
     </main>
+
+    <section  class="content" id="text">
+      <div class="sec1" >
+        <h1 >FUNDRAISER</h1>
+        <ul>
+          <li><a href="#">London</a></li>
+          <li><a href="#">Paris</a></li>
+          <li><a href="#">Tokyo</a></li>
+        </ul>
+      </nav>
+    </div>
+      
+      <article >
+        <h1>NEWSFEED</h1>
+        <p>LLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+        <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans</p>
+      </article>
+    </section>
+    
+    <footer >
+      <p id="text">Footer</p>
+    
+    </footer>
     
 
 

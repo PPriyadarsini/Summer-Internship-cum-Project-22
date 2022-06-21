@@ -113,6 +113,18 @@
 	padding-left:40px;
 	margin-top: 20px;
 } 
+
+.btn-rounded{
+	background: red;
+	padding: 0.52rem 1.1rem;
+  	font-size: 1rem;
+  	text-align: center;
+  	cursor: pointer;
+  	text-decoration: none;
+  	border-radius: 3px;
+  	position: absolute;
+	color: white;
+}
 .sec1 {
 	float: left;
 	width: 60%;
@@ -122,8 +134,10 @@
 	margin-right: 20px;
     margin-bottom: 20px;
     border-top: 0.5rem rgb(101, 101, 242) solid;
-	
-  }
+}
+
+
+
   article {
 	float: left;
 	padding: 20px;
@@ -148,6 +162,8 @@
 	text-align: center;
 	color: #FFF;
   }
+
+
   
 
 

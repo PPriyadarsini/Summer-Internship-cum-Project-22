@@ -113,6 +113,24 @@
 	padding-left:40px;
 	margin-top: 20px;
 } 
+.content img{
+    position: relative;
+    left:400px;
+    top: -50px;
+    align-items: center;
+    
+} 
+.content .left{
+    width: 40%;
+    float: left;
+}
+.content .right{
+    width: 100%;
+    float:right;
+    position: relative;
+    top:-150px;
+}
+
 
 .btn-rounded{
 	background: red;

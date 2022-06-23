@@ -43,6 +43,11 @@
     position: relative;
     left: 200px;
 }
+.list img{
+    position: relative;
+    left: 35rem;
+    top: -14px;
+}
 
 /* Logo */
 .header-fixed .header-limiter img{

@@ -4,4 +4,6 @@ A GIGW-compliant website for the upliftment of society that provides information
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![HomePage]("D:\MCA\WebD-Summer-Project-22\HomePage.png")
+
+

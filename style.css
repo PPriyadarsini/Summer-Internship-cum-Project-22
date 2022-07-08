@@ -52,13 +52,22 @@
 /* Logo */
 .header-fixed .header-limiter img{
 	float: left;
-	padding-right: 10px;
+	padding-right: 5px;
+    margin: -0.25em 0 0 1.2em
 }
 
 .header-fixed .header-limiter h1,h6 {
 	float: left;
 	margin-top: 10px;
 	color: #0338AD	;
+}
+
+.header-limiter #text button{
+    padding: 4px 15px 4px 15px;
+    border-radius: 20px;
+    background-color: #0338AD;
+    color: white;
+    border: none;
 }
 
 /* bottom navbar */
@@ -83,20 +92,23 @@
     text-decoration: none;
 }
 
+.navbar li{
+    float: left;
+    justify-content: center;
+    align-items: center;
+    padding: 0.188em 1em 0 4em;
+    font-size: 0.3em;
+
+}
+
 .navbar{
     background-image: linear-gradient(to right,rgb(2, 2, 56), rgb(39, 187, 224)) ;
-    height: 50px;
+    height: 3em;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar li{
-    float: left;
-    align-items: center;
-    padding-top: 3px;
-    padding-left: 60px;
 
-}
 
 .navbar a{
     color: #fff;
@@ -154,7 +166,7 @@
 	padding: 20px;
 	margin-right: 20px;
     margin-bottom: 20px;
-    border-top: 0.5rem rgb(101, 101, 242) solid;
+    border-top: 0.5rem solid rgb(2, 2, 56);
 }
 
 
@@ -165,7 +177,7 @@
 	/* padding-right: 30px; */
 	width: 36%;
 	background-color: #dfdfdf;
-    border-top: 0.5rem rgb(101, 101, 242) solid;
+    border-top: 0.5rem rgb(2, 2, 56) solid;
 	height: 300px; /* only for demonstration, should be removed */
   }
   
